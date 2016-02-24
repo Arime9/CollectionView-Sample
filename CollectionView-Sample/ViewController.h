@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CollectionView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet CollectionView *collectionView;
 
 @end
-

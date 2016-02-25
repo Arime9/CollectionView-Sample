@@ -1,0 +1,149 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3920100",
+            "name": "高知市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3920400",
+            "name": "南国市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3920500",
+            "name": "土佐市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3920600",
+            "name": "須崎市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3921100",
+            "name": "香南市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3921200",
+            "name": "香美市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3934100",
+            "name": "本山町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3934400",
+            "name": "大豊町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3936300",
+            "name": "土佐町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3936400",
+            "name": "大川村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3938600",
+            "name": "いの町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3938700",
+            "name": "仁淀川町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3940200",
+            "name": "佐川町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3940300",
+            "name": "越知町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3941000",
+            "name": "日高村"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/390010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴時々曇",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "12",
+                    "fahrenheit": "53.6"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/2.gif",
+                "title": "晴時々曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴れ",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "1",
+                    "fahrenheit": "33.8"
+                },
+                "max": {
+                    "celsius": "13",
+                    "fahrenheit": "55.4"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/1.gif",
+                "title": "晴れ",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々晴",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "高知",
+        "area": "四国",
+        "prefecture": "高知県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "高知県 高知 の天気",
+    "description": {
+        "text": " 四国地方は、高気圧に覆われて概ね晴れています。\n\n 高知県では25日から26日にかけて、高気圧に覆われて概ね晴れるでし\nょう。",
+        "publicTime": "2016-02-25T10:40:00+0900"
+    }
+}

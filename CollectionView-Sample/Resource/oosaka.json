@@ -1,0 +1,261 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2710000",
+            "name": "大阪市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2714000",
+            "name": "堺市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720200",
+            "name": "岸和田市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720300",
+            "name": "豊中市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720400",
+            "name": "池田市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720500",
+            "name": "吹田市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720600",
+            "name": "泉大津市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720700",
+            "name": "高槻市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720800",
+            "name": "貝塚市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2720900",
+            "name": "守口市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721000",
+            "name": "枚方市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721100",
+            "name": "茨木市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721200",
+            "name": "八尾市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721300",
+            "name": "泉佐野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721400",
+            "name": "富田林市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721500",
+            "name": "寝屋川市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721600",
+            "name": "河内長野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721700",
+            "name": "松原市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721800",
+            "name": "大東市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2721900",
+            "name": "和泉市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722000",
+            "name": "箕面市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722100",
+            "name": "柏原市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722200",
+            "name": "羽曳野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722300",
+            "name": "門真市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722400",
+            "name": "摂津市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722500",
+            "name": "高石市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722600",
+            "name": "藤井寺市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722700",
+            "name": "東大阪市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722800",
+            "name": "泉南市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2722900",
+            "name": "四條畷市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2723000",
+            "name": "交野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2723100",
+            "name": "大阪狭山市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2723200",
+            "name": "阪南市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2730100",
+            "name": "島本町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2732100",
+            "name": "豊能町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2732200",
+            "name": "能勢町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2734100",
+            "name": "忠岡町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2736100",
+            "name": "熊取町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2736200",
+            "name": "田尻町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2736600",
+            "name": "岬町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2738100",
+            "name": "太子町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2738200",
+            "name": "河南町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2738300",
+            "name": "千早赤阪村"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/270000",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴のち曇",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "9",
+                    "fahrenheit": "48.2"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/5.gif",
+                "title": "晴のち曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴のち曇",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "1",
+                    "fahrenheit": "33.8"
+                },
+                "max": {
+                    "celsius": "9",
+                    "fahrenheit": "48.2"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/5.gif",
+                "title": "晴のち曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "晴時々曇",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/2.gif",
+                "title": "晴時々曇",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "大阪",
+        "area": "近畿",
+        "prefecture": "大阪府"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "大阪府 大阪 の天気",
+    "description": {
+        "text": " 近畿地方は、高気圧に覆われて晴れています。\n\n 今日の近畿地方は、高気圧に覆われて晴れますが、午後は気圧の谷の影響\nで次第に雲が広がり、北部では雨や雪が降り、雷を伴うところがある見込み\nです。\n\n 明日の近畿地方は、高気圧に覆われて概ね晴れますが、気圧の谷や寒気の\n影響で北部では雲が広がり、雪や雨の降るところがあるでしょう。",
+        "publicTime": "2016-02-25T10:34:00+0900"
+    }
+}

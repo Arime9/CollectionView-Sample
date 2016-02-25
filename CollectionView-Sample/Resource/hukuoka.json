@@ -1,0 +1,157 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4013000",
+            "name": "福岡市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4021700",
+            "name": "筑紫野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4021800",
+            "name": "春日市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4021900",
+            "name": "大野城市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4022000",
+            "name": "宗像市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4022100",
+            "name": "太宰府市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4022300",
+            "name": "古賀市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4022400",
+            "name": "福津市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4023000",
+            "name": "糸島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4030500",
+            "name": "那珂川町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034100",
+            "name": "宇美町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034200",
+            "name": "篠栗町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034300",
+            "name": "志免町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034400",
+            "name": "須恵町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034500",
+            "name": "新宮町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034800",
+            "name": "久山町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4034900",
+            "name": "粕屋町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/400010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "曇のち晴",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "8",
+                    "fahrenheit": "46.4"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/12.gif",
+                "title": "曇のち晴",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "曇のち雨",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "2",
+                    "fahrenheit": "35.6"
+                },
+                "max": {
+                    "celsius": "13",
+                    "fahrenheit": "55.4"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/13.gif",
+                "title": "曇のち雨",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇り",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/8.gif",
+                "title": "曇り",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "福岡",
+        "area": "九州",
+        "prefecture": "福岡県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "福岡県 福岡 の天気",
+    "description": {
+        "text": " 九州北部地方は、気圧の谷や寒気の影響により概ね曇りで雨の降っている\n所があります。\n\n 九州北部地方の25日は、気圧の谷や寒気の影響によりはじめ曇りで、雨\nや雪の降る所がありますが、次第に晴れとなるでしょう。\n\n 26日は、高気圧に覆われ概ね晴れますが、夜は気圧の谷の影響により曇\nりで雨の降る所があるでしょう。\n\n 波の高さは、対馬海峡では、25日は2.5メートル、26日は2メート\nルでしょう。九州西海上では、25日は3メートル、26日は2メートルで\nしょう。豊後水道では、25日は2メートル、26日は1.5メートルでし\nょう。\n 福岡県の内海では、25日と26日は0.5メートルでしょう。",
+        "publicTime": "2016-02-25T10:45:00+0900"
+    }
+}

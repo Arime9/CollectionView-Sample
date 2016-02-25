@@ -1,0 +1,157 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4620100",
+            "name": "鹿児島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4620400",
+            "name": "枕崎市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4620600",
+            "name": "阿久根市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4620800",
+            "name": "出水市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4621000",
+            "name": "指宿市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4621501",
+            "name": "薩摩川内市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4621502",
+            "name": "薩摩川内市甑島"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4621600",
+            "name": "日置市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4621800",
+            "name": "霧島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4621900",
+            "name": "いちき串木野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4622000",
+            "name": "南さつま市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4622300",
+            "name": "南九州市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4622400",
+            "name": "伊佐市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4622500",
+            "name": "姶良市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4639200",
+            "name": "さつま町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4640400",
+            "name": "長島町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4645200",
+            "name": "湧水町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/460010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴れ",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "12",
+                    "fahrenheit": "53.6"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/1.gif",
+                "title": "晴れ",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴のち曇",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "2",
+                    "fahrenheit": "35.6"
+                },
+                "max": {
+                    "celsius": "14",
+                    "fahrenheit": "57.2"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/5.gif",
+                "title": "晴のち曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々晴",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "鹿児島",
+        "area": "九州",
+        "prefecture": "鹿児島県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "鹿児島県 鹿児島 の天気",
+    "description": {
+        "text": " 九州南部は、概ね晴れとなっています。\n 奄美地方は、曇りとなっています。\n\n 九州南部は、25日は、高気圧に覆われるでしょう。26日は、高気圧に\n覆われますが、気圧の谷の影響を受ける所がある見込みです。\n 奄美地方は、25日は、高気圧に覆われますが、寒気の影響を受ける所が\nあるでしょう。26日は、気圧の谷の影響を受ける見込みです。\n  \n 九州南部は、25日は、概ね晴れでしょう。26日は、晴れですが、夕方\nから曇りとなる所がある見込みです。\n 奄美地方は、25日は、概ね曇りですが時々晴れるでしょう。26日は、\n曇りの見込みです。\n  \n 海上は、25日は、波が高い所があり、26日は、波がやや高いか多少波\nがある程度でしょう。\n\n 霧島山(新燃岳)上空およそ1500メートルの風\n 25日09時    北西の風3メートル\n 25日21時の予想 南東の風1メートル\n\n 桜島上空およそ1500メートルの風\n 25日09時    北西の風10メートル\n 25日21時の予想 北の風2メートル\n\n<天気変化等の留意点>\n 屋久島町及び三島村では、25日は雲が広がりやすいものの、概ね晴れで\nしょう。26日は、はじめ晴れますが次第に曇りとなる見込みです。\n 屋久島町及び三島村では、高波に注意してください。",
+        "publicTime": "2016-02-25T10:36:00+0900"
+    }
+}

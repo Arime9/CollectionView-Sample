@@ -1,0 +1,141 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0520100",
+            "name": "秋田市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0520200",
+            "name": "能代市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0520600",
+            "name": "男鹿市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0521000",
+            "name": "由利本荘市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0521100",
+            "name": "潟上市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0521400",
+            "name": "にかほ市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0534600",
+            "name": "藤里町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0534800",
+            "name": "三種町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0534900",
+            "name": "八峰町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0536100",
+            "name": "五城目町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0536300",
+            "name": "八郎潟町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0536600",
+            "name": "井川町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0536800",
+            "name": "大潟村"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/050010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "雪時々曇",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "1",
+                    "fahrenheit": "33.8"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/25.gif",
+                "title": "雪時々曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "雪時々曇",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "-3",
+                    "fahrenheit": "26.6"
+                },
+                "max": {
+                    "celsius": "1",
+                    "fahrenheit": "33.8"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/25.gif",
+                "title": "雪時々曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々雪",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/11.gif",
+                "title": "曇時々雪",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "秋田",
+        "area": "東北",
+        "prefecture": "秋田県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "秋田県 秋田 の天気",
+    "description": {
+        "text": "北日本は冬型の気圧配置となっています。\n\n秋田県は、雪や曇りとなっています。\n\n25日は、冬型の気圧配置は次第に緩みますが、夜は低気圧が接近するため\n、雪の降る所が多いでしょう。\n\n26日は、低気圧や寒気の影響により、雪の降る所が多い見込みです。\n\n<天気変化等の留意点>\n25日は、特にありません。",
+        "publicTime": "2016-02-25T10:40:00+0900"
+    }
+}

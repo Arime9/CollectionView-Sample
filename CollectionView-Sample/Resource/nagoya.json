@@ -1,0 +1,273 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2310000",
+            "name": "名古屋市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320200",
+            "name": "岡崎市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320300",
+            "name": "一宮市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320400",
+            "name": "瀬戸市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320500",
+            "name": "半田市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320600",
+            "name": "春日井市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320800",
+            "name": "津島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2320900",
+            "name": "碧南市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321000",
+            "name": "刈谷市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321101",
+            "name": "豊田市西部"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321200",
+            "name": "安城市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321300",
+            "name": "西尾市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321500",
+            "name": "犬山市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321600",
+            "name": "常滑市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321700",
+            "name": "江南市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2321900",
+            "name": "小牧市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322000",
+            "name": "稲沢市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322200",
+            "name": "東海市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322300",
+            "name": "大府市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322400",
+            "name": "知多市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322500",
+            "name": "知立市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322600",
+            "name": "尾張旭市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322700",
+            "name": "高浜市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322800",
+            "name": "岩倉市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2322900",
+            "name": "豊明市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323000",
+            "name": "日進市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323200",
+            "name": "愛西市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323300",
+            "name": "清須市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323400",
+            "name": "北名古屋市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323500",
+            "name": "弥富市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323600",
+            "name": "みよし市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323700",
+            "name": "あま市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2323800",
+            "name": "長久手市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2330200",
+            "name": "東郷町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2334200",
+            "name": "豊山町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2336100",
+            "name": "大口町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2336200",
+            "name": "扶桑町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2342400",
+            "name": "大治町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2342500",
+            "name": "蟹江町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2342700",
+            "name": "飛島村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2344100",
+            "name": "阿久比町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2344200",
+            "name": "東浦町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2344500",
+            "name": "南知多町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2344600",
+            "name": "美浜町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2344700",
+            "name": "武豊町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2350100",
+            "name": "幸田町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/230010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴のち曇",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "10",
+                    "fahrenheit": "50.0"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/5.gif",
+                "title": "晴のち曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴時々曇",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "0",
+                    "fahrenheit": "32.0"
+                },
+                "max": {
+                    "celsius": "10",
+                    "fahrenheit": "50.0"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/2.gif",
+                "title": "晴時々曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々晴",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "名古屋",
+        "area": "東海",
+        "prefecture": "愛知県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "愛知県 名古屋 の天気",
+    "description": {
+        "text": " 日本付近は、冬型の気圧配置となっています。\n\n 東海地方は、おおむね晴れています。\n\n 今日は、冬型の気圧配置が続くため、おおむね晴れますが、夜は気圧の谷\nの影響で雲が広がり、岐阜県の山地では雪の降る所があるでしょう。静岡県\nでは、局地的な前線の影響で、東部を中心に雪や雨の降る所がある見込みで\nす。\n\n 明日は、引き続き冬型の気圧配置となるため、おおむね晴れますが、気圧\nの谷の影響で雲が広がりやすいでしょう。岐阜県では、おおむね曇りで、山\n地を中心に雪の降る所がある見込みです。",
+        "publicTime": "2016-02-25T10:34:00+0900"
+    }
+}

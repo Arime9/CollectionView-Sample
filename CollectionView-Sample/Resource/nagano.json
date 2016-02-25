@@ -1,0 +1,169 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2020100",
+            "name": "長野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2020700",
+            "name": "須坂市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2021100",
+            "name": "中野市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2021200",
+            "name": "大町市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2021300",
+            "name": "飯山市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2021800",
+            "name": "千曲市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2048100",
+            "name": "池田町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2048200",
+            "name": "松川村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2048500",
+            "name": "白馬村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2048600",
+            "name": "小谷村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2052100",
+            "name": "坂城町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2054100",
+            "name": "小布施町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2054300",
+            "name": "高山村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2056100",
+            "name": "山ノ内町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2056200",
+            "name": "木島平村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2056300",
+            "name": "野沢温泉村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2058300",
+            "name": "信濃町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2058800",
+            "name": "小川村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2059000",
+            "name": "飯綱町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/2060200",
+            "name": "栄村"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/200010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "曇時々晴",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "4",
+                    "fahrenheit": "39.2"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "曇のち雪",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "-4",
+                    "fahrenheit": "24.8"
+                },
+                "max": {
+                    "celsius": "5",
+                    "fahrenheit": "41.0"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/14.gif",
+                "title": "曇のち雪",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々雪",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/11.gif",
+                "title": "曇時々雪",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "長野",
+        "area": "信越・北陸",
+        "prefecture": "長野県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "長野県 長野 の天気",
+    "description": {
+        "text": " 日本付近は、北日本中心の冬型の気圧配置となっています。\n\n 長野県内は、晴れまたは曇りで、雪の降っている所があります。\n\n 25日は、冬型の気圧配置ですが、気圧の谷の影響を受ける見込みです。\n このため、北部では曇りで、昼過ぎから夕方は晴れますが、雪の降る所が\nあるでしょう。中部と南部では晴れますが、夜は雲が広がり、中部では雪の\n降る所があるでしょう。\n\n 26日は、引き続き冬型の気圧配置が続きますが、気圧の谷の影響を受け\nる見込みです。\n このため、北部では曇りで、昼過ぎから時々雪が降るでしょう。中部と南\n部では晴れますが朝晩雲が広がりやすく、雪の降る所があるでしょう。\n\n<天気変化等の留意点>\n 25日12時から26日12時までの24時間に予想される降水量は、多\nい所で、北部で10ミリ、中部で3ミリ、南部で1ミリの見込みです。\n 25日12時から26日12時までの24時間に予想される降雪量は、多\nい所で、北部で10センチ、中部で3センチ、南部で1センチの見込みです\n。",
+        "publicTime": "2016-02-25T10:58:00+0900"
+    }
+}

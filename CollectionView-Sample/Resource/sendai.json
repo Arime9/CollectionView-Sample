@@ -1,0 +1,201 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0410001",
+            "name": "仙台市東部"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0420200",
+            "name": "石巻市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0420300",
+            "name": "塩竈市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0420500",
+            "name": "気仙沼市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0420700",
+            "name": "名取市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0420800",
+            "name": "角田市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0420900",
+            "name": "多賀城市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0421100",
+            "name": "岩沼市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0421200",
+            "name": "登米市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0421301",
+            "name": "栗原市東部"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0421400",
+            "name": "東松島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0421501",
+            "name": "大崎市東部"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0432100",
+            "name": "大河原町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0432200",
+            "name": "村田町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0432300",
+            "name": "柴田町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0434100",
+            "name": "丸森町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0436100",
+            "name": "亘理町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0436200",
+            "name": "山元町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0440100",
+            "name": "松島町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0440400",
+            "name": "七ヶ浜町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0440600",
+            "name": "利府町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0442101",
+            "name": "大和町東部"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0442200",
+            "name": "大郷町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0442300",
+            "name": "富谷町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0450100",
+            "name": "涌谷町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0450500",
+            "name": "美里町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0458100",
+            "name": "女川町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0460600",
+            "name": "南三陸町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/040010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴時々曇",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "4",
+                    "fahrenheit": "39.2"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/2.gif",
+                "title": "晴時々曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "曇時々晴",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "-3",
+                    "fahrenheit": "26.6"
+                },
+                "max": {
+                    "celsius": "6",
+                    "fahrenheit": "42.8"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々晴",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "仙台",
+        "area": "東北",
+        "prefecture": "宮城県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "宮城県 仙台 の天気",
+    "description": {
+        "text": "北日本は冬型の気圧配置となっています。\n\n【宮城県】\n宮城県は、晴れや曇りとなっています。\n\n25日は、冬型の気圧配置が次第に緩むため、晴れや曇りですが、西部では\n山沿いを中心に雪の降る所があるでしょう。\n\n26日は、低気圧や寒気の影響により、曇りや晴れで、西部を中心に明け方\nにかけて雪の降る所が多いでしょう。\n\n<天気変化等の留意点>\n東部では空気が乾燥しますので、火の取り扱いに注意してください。\n\n【東北地方】\n東北地方は、日本海側は雪が降っています。太平洋側は晴れや曇りとなって\nいます。\n\n25日は、冬型の気圧配置は緩みますが、夜は低気圧が接近する見込みです\n。日本海側は曇りで雪が降るでしょう。太平洋側は晴れや曇りの見込みです\n。\n\n26日は、低気圧や寒気の影響により、日本海側は雪の降る所が多いでしょ\nう。太平洋側は曇りや晴れで、内陸を中心に昼前にかけて雪の降る所がある\n見込みです。",
+        "publicTime": "2016-02-25T10:52:00+0900"
+    }
+}

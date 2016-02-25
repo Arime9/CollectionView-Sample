@@ -1,0 +1,173 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4720100",
+            "name": "那覇市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4720500",
+            "name": "宜野湾市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4720800",
+            "name": "浦添市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4721000",
+            "name": "糸満市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4721100",
+            "name": "沖縄市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4721200",
+            "name": "豊見城市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4721300",
+            "name": "うるま市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4721500",
+            "name": "南城市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4732400",
+            "name": "読谷村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4732500",
+            "name": "嘉手納町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4732600",
+            "name": "北谷町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4732700",
+            "name": "北中城村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4732800",
+            "name": "中城村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4732900",
+            "name": "西原町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4734800",
+            "name": "与那原町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4735000",
+            "name": "南風原町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4735300",
+            "name": "渡嘉敷村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4735400",
+            "name": "座間味村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4735500",
+            "name": "粟国村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4735600",
+            "name": "渡名喜村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/4736200",
+            "name": "八重瀬町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/471010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "曇のち晴",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "16",
+                    "fahrenheit": "60.8"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/12.gif",
+                "title": "曇のち晴",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴のち曇",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "12",
+                    "fahrenheit": "53.6"
+                },
+                "max": {
+                    "celsius": "17",
+                    "fahrenheit": "62.6"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/5.gif",
+                "title": "晴のち曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇り",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/8.gif",
+                "title": "曇り",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "那覇",
+        "area": "沖縄",
+        "prefecture": "沖縄県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "沖縄県 那覇 の天気",
+    "description": {
+        "text": " 沖縄本島地方と先島諸島は、大陸の高気圧の張り出しに伴う寒気の影響で\n曇っており、先島諸島では弱い雨の降っている所があります。大東島地方は\n高気圧に覆われて晴れています。\n\n 25日は、沖縄本島地方と大東島地方は、高気圧に覆われおおむね晴れる\nでしょう。先島諸島は寒気の影響で曇り、所により弱い雨が降る見込みです\n。\n\n 26日は、沖縄本島地方は、午前中は高気圧に覆われ晴れるでしょう。午\n後は湿った空気の影響で曇る見込みです。大東島地方は、高気圧に覆われお\nおむね晴れるでしょう。先島諸島は、湿った空気の影響で曇る見込みです。\n\n 沖縄地方の沿岸の海域では、しけています。海上や海岸付近では、26日\nにかけて高波に注意してください。",
+        "publicTime": "2016-02-25T10:39:00+0900"
+    }
+}

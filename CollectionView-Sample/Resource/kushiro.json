@@ -1,0 +1,129 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0120601",
+            "name": "釧路市釧路"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0120602",
+            "name": "釧路市阿寒"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0120603",
+            "name": "釧路市音別"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166100",
+            "name": "釧路町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166200",
+            "name": "厚岸町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166300",
+            "name": "浜中町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166400",
+            "name": "標茶町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166500",
+            "name": "弟子屈町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166700",
+            "name": "鶴居村"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0166800",
+            "name": "白糠町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/014020",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴時々曇",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "-3",
+                    "fahrenheit": "26.6"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/2.gif",
+                "title": "晴時々曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴のち曇",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "-14",
+                    "fahrenheit": "6.8"
+                },
+                "max": {
+                    "celsius": "-1",
+                    "fahrenheit": "30.2"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/5.gif",
+                "title": "晴のち曇",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "晴時々曇",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/2.gif",
+                "title": "晴時々曇",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "釧路",
+        "area": "北海道",
+        "prefecture": "道東"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "道東 釧路 の天気",
+    "description": {
+        "text": " 北海道付近は、冬型の気圧配置となっていますが、25日夜から26日に\nかけて、宗谷海峡付近を低気圧が通過する見込みです。\n\n 25日9時の釧路・根室・十勝地方の天気は、晴れとなっています。\n\n 25日から26日にかけて、晴れ時々曇りで雪の降る所がある見込みです\n。\n\n 海の波の高さは、25日は1メートルから1.5メートルとやや高いでし\nょう。26日は釧路・根室地方では1.5メートルとやや高く、十勝地方で\nは1メートルの見込みです。\n なお、根室地方では、流氷に注意してください。",
+        "publicTime": "2016-02-25T10:45:00+0900"
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0110000",
+            "name": "札幌市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0121700",
+            "name": "江別市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0122400",
+            "name": "千歳市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0123100",
+            "name": "恵庭市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0123400",
+            "name": "北広島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0123500",
+            "name": "石狩市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0130300",
+            "name": "当別町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/0130400",
+            "name": "新篠津村"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/016010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "晴時々雪",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "-2",
+                    "fahrenheit": "28.4"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/4.gif",
+                "title": "晴時々雪",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "晴時々雪",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "-9",
+                    "fahrenheit": "15.8"
+                },
+                "max": {
+                    "celsius": "-2",
+                    "fahrenheit": "28.4"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/4.gif",
+                "title": "晴時々雪",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々雪",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/11.gif",
+                "title": "曇時々雪",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "札幌",
+        "area": "北海道",
+        "prefecture": "道央"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "道央 札幌 の天気",
+    "description": {
+        "text": " 北海道付近は、冬型の気圧配置となっていますが、25日夜から26日に\nかけて、宗谷海峡付近を低気圧が通過する見込みです。\n\n 25日9時の石狩・空知・後志地方の天気は、雪または曇りとなっていま\nす。\n\n 25日は、石狩地方は晴れ時々雪、空知・後志地方は雪時々曇りで、ふぶ\nく所があるでしょう。\n\n 26日は、石狩地方は晴れ時々雪、空知・後志地方は曇り時々雪で、ふぶ\nく所がある見込みです。\n\n 海の波の高さは、25日は2メートル、26日は2メートルのち1.5メ\nートルとやや高いでしょう。",
+        "publicTime": "2016-02-25T11:28:00+0900"
+    }
+}

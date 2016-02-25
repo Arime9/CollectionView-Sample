@@ -1,0 +1,161 @@
+{
+    "pinpointLocations": [
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3410000",
+            "name": "広島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3420200",
+            "name": "呉市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3420300",
+            "name": "竹原市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3420400",
+            "name": "三原市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3420500",
+            "name": "尾道市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3420700",
+            "name": "福山市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3420800",
+            "name": "府中市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3421100",
+            "name": "大竹市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3421200",
+            "name": "東広島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3421300",
+            "name": "廿日市市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3421500",
+            "name": "江田島市"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3430200",
+            "name": "府中町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3430400",
+            "name": "海田町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3430700",
+            "name": "熊野町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3430900",
+            "name": "坂町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3443100",
+            "name": "大崎上島町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3446200",
+            "name": "世羅町"
+        },
+        {
+            "link": "http://weather.livedoor.com/area/forecast/3454500",
+            "name": "神石高原町"
+        }
+    ],
+    "link": "http://weather.livedoor.com/area/forecast/340010",
+    "forecasts": [
+        {
+            "dateLabel": "今日",
+            "telop": "曇のち晴",
+            "date": "2016-02-25",
+            "temperature": {
+                "min": null,
+                "max": {
+                    "celsius": "10",
+                    "fahrenheit": "50.0"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/12.gif",
+                "title": "曇のち晴",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明日",
+            "telop": "曇時々晴",
+            "date": "2016-02-26",
+            "temperature": {
+                "min": {
+                    "celsius": "-1",
+                    "fahrenheit": "30.2"
+                },
+                "max": {
+                    "celsius": "11",
+                    "fahrenheit": "51.8"
+                }
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        },
+        {
+            "dateLabel": "明後日",
+            "telop": "曇時々晴",
+            "date": "2016-02-27",
+            "temperature": {
+                "min": null,
+                "max": null
+            },
+            "image": {
+                "width": 50,
+                "url": "http://weather.livedoor.com/img/icon/9.gif",
+                "title": "曇時々晴",
+                "height": 31
+            }
+        }
+    ],
+    "location": {
+        "city": "広島",
+        "area": "中国",
+        "prefecture": "広島県"
+    },
+    "publicTime": "2016-02-25T11:00:00+0900",
+    "copyright": {
+        "provider": [
+            {
+                "link": "http://tenki.jp/",
+                "name": "日本気象協会"
+            }
+        ],
+        "link": "http://weather.livedoor.com/",
+        "title": "(C) LINE Corporation",
+        "image": {
+            "width": 118,
+            "link": "http://weather.livedoor.com/",
+            "url": "http://weather.livedoor.com/img/cmn/livedoor.gif",
+            "title": "livedoor 天気情報",
+            "height": 26
+        }
+    },
+    "title": "広島県 広島 の天気",
+    "description": {
+        "text": " 中国地方は、気圧の谷や寒気の影響で、島根県や広島県では雲が広がり、\n雪や雨の降っている所があります。\n\n 25日の広島県は、気圧の谷や寒気の影響で雲が広がり、昼過ぎまで、雪\nや雨の降る所がある見込みです。\n\n 26日は、気圧の谷や寒気の影響で雲が広がり、北部では夜に雪が降るで\nしょう。",
+        "publicTime": "2016-02-25T10:33:00+0900"
+    }
+}

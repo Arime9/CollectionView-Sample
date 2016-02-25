@@ -67,6 +67,31 @@
     return _cellsData;
 }
 
+- (NSMutableArray<WEWeather *> *)weathers {
+    if (!_weathers) {
+        _weathers = [NSMutableArray array];
+        
+        // JSONから気象情報を取得する
+        NSMutableArray<WEWeather *> *weathers = [NSMutableArray array];
+        NSArray<NSURL *> *jsonURLs = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"json" subdirectory:nil];
+        for (NSURL *jsonURL in jsonURLs) {
+            NSError *createError;
+            NSData *jsonData = [NSData dataWithContentsOfURL:jsonURL options:0 error:&createError];
+            
+            NSError *serializeError;
+            NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&serializeError];
+            
+            WEWeather *weather = [[WEWeather alloc] initWithDictionary:jsonDic];
+            [weathers addObject:weather];
+        }
+        
+        // 気象情報を地区ID順にソートする(linkの末尾が地区IDに当たる)
+        NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"self.link" ascending:YES];
+        _weathers = [[weathers sortedArrayUsingDescriptors:@[areaSortDescriptor]] mutableCopy];
+    }
+    return _weathers;
+}
+
 #pragma - UICollectionViewDataSource
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return self.headersData.count;

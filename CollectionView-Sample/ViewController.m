@@ -37,6 +37,7 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+    // スクロールインジケータを光らせることで、スクロール可能なことを知らせる
     [self.collectionView flashScrollIndicators];
 }
 

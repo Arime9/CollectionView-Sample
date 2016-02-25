@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CollectionReusableView.h"
 #import "CollectionViewCell.h"
+#import "WEWeather.h"
 
 @interface CollectionView : UICollectionView
 
@@ -16,5 +17,7 @@
 
 @property (nonatomic, strong) NSMutableArray<CollectionReusableViewData *> *headersData;
 @property (nonatomic, strong) NSMutableArray<NSMutableArray<CollectionViewCellData *> *> *cellsData;
+
+@property (nonatomic, strong) NSMutableArray<WEWeather *> *weathers;
 
 @end

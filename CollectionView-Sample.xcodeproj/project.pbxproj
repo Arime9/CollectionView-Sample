@@ -33,6 +33,14 @@
 		26D393B61C7EA19000DABA01 /* sapporo.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A81C7EA19000DABA01 /* sapporo.json */; };
 		26D393B71C7EA19000DABA01 /* sendai.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A91C7EA19000DABA01 /* sendai.json */; };
 		26D393B81C7EA19000DABA01 /* tokyo.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393AA1C7EA19000DABA01 /* tokyo.json */; };
+		26D393CA1C7EAB0500DABA01 /* WECopyright.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393BB1C7EAB0500DABA01 /* WECopyright.m */; };
+		26D393CB1C7EAB0500DABA01 /* WEDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393BD1C7EAB0500DABA01 /* WEDescription.m */; };
+		26D393CC1C7EAB0500DABA01 /* WEForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393BF1C7EAB0500DABA01 /* WEForecast.m */; };
+		26D393CD1C7EAB0500DABA01 /* WEImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393C11C7EAB0500DABA01 /* WEImage.m */; };
+		26D393CE1C7EAB0500DABA01 /* WELocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393C31C7EAB0500DABA01 /* WELocation.m */; };
+		26D393CF1C7EAB0500DABA01 /* WEProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393C51C7EAB0500DABA01 /* WEProvider.m */; };
+		26D393D01C7EAB0500DABA01 /* WETemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393C71C7EAB0500DABA01 /* WETemperature.m */; };
+		26D393D11C7EAB0500DABA01 /* WEWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D393C91C7EAB0500DABA01 /* WEWeather.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +99,22 @@
 		26D393A81C7EA19000DABA01 /* sapporo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sapporo.json; sourceTree = "<group>"; };
 		26D393A91C7EA19000DABA01 /* sendai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sendai.json; sourceTree = "<group>"; };
 		26D393AA1C7EA19000DABA01 /* tokyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokyo.json; sourceTree = "<group>"; };
+		26D393BA1C7EAB0500DABA01 /* WECopyright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WECopyright.h; sourceTree = "<group>"; };
+		26D393BB1C7EAB0500DABA01 /* WECopyright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WECopyright.m; sourceTree = "<group>"; };
+		26D393BC1C7EAB0500DABA01 /* WEDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEDescription.h; sourceTree = "<group>"; };
+		26D393BD1C7EAB0500DABA01 /* WEDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEDescription.m; sourceTree = "<group>"; };
+		26D393BE1C7EAB0500DABA01 /* WEForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEForecast.h; sourceTree = "<group>"; };
+		26D393BF1C7EAB0500DABA01 /* WEForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEForecast.m; sourceTree = "<group>"; };
+		26D393C01C7EAB0500DABA01 /* WEImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEImage.h; sourceTree = "<group>"; };
+		26D393C11C7EAB0500DABA01 /* WEImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEImage.m; sourceTree = "<group>"; };
+		26D393C21C7EAB0500DABA01 /* WELocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WELocation.h; sourceTree = "<group>"; };
+		26D393C31C7EAB0500DABA01 /* WELocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WELocation.m; sourceTree = "<group>"; };
+		26D393C41C7EAB0500DABA01 /* WEProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEProvider.h; sourceTree = "<group>"; };
+		26D393C51C7EAB0500DABA01 /* WEProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEProvider.m; sourceTree = "<group>"; };
+		26D393C61C7EAB0500DABA01 /* WETemperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WETemperature.h; sourceTree = "<group>"; };
+		26D393C71C7EAB0500DABA01 /* WETemperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETemperature.m; sourceTree = "<group>"; };
+		26D393C81C7EAB0500DABA01 /* WEWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEWeather.h; sourceTree = "<group>"; };
+		26D393C91C7EAB0500DABA01 /* WEWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEWeather.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +180,7 @@
 				2619C4E71C7D89FE00334266 /* CollectionViewCell.m */,
 				2619C4B31C7D85D300334266 /* Assets.xcassets */,
 				2619C4B51C7D85D300334266 /* LaunchScreen.storyboard */,
+				26D393B91C7EAB0500DABA01 /* Model */,
 				26D3939A1C7E9E0100DABA01 /* Resource */,
 				2619C4B81C7D85D300334266 /* Info.plist */,
 				2619C4A71C7D85D300334266 /* Supporting Files */,
@@ -208,6 +233,29 @@
 				26D393AA1C7EA19000DABA01 /* tokyo.json */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		26D393B91C7EAB0500DABA01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26D393BA1C7EAB0500DABA01 /* WECopyright.h */,
+				26D393BB1C7EAB0500DABA01 /* WECopyright.m */,
+				26D393BC1C7EAB0500DABA01 /* WEDescription.h */,
+				26D393BD1C7EAB0500DABA01 /* WEDescription.m */,
+				26D393BE1C7EAB0500DABA01 /* WEForecast.h */,
+				26D393BF1C7EAB0500DABA01 /* WEForecast.m */,
+				26D393C01C7EAB0500DABA01 /* WEImage.h */,
+				26D393C11C7EAB0500DABA01 /* WEImage.m */,
+				26D393C21C7EAB0500DABA01 /* WELocation.h */,
+				26D393C31C7EAB0500DABA01 /* WELocation.m */,
+				26D393C41C7EAB0500DABA01 /* WEProvider.h */,
+				26D393C51C7EAB0500DABA01 /* WEProvider.m */,
+				26D393C61C7EAB0500DABA01 /* WETemperature.h */,
+				26D393C71C7EAB0500DABA01 /* WETemperature.m */,
+				26D393C81C7EAB0500DABA01 /* WEWeather.h */,
+				26D393C91C7EAB0500DABA01 /* WEWeather.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,11 +402,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D393CC1C7EAB0500DABA01 /* WEForecast.m in Sources */,
+				26D393CD1C7EAB0500DABA01 /* WEImage.m in Sources */,
 				2619C4E51C7D89EF00334266 /* CollectionView.m in Sources */,
 				2619C4AF1C7D85D300334266 /* ViewController.m in Sources */,
 				2619C4DC1C7D891400334266 /* NavigationController.m in Sources */,
 				2619C4AC1C7D85D300334266 /* AppDelegate.m in Sources */,
 				2619C4A91C7D85D300334266 /* main.m in Sources */,
+				26D393CB1C7EAB0500DABA01 /* WEDescription.m in Sources */,
+				26D393D11C7EAB0500DABA01 /* WEWeather.m in Sources */,
+				26D393CE1C7EAB0500DABA01 /* WELocation.m in Sources */,
+				26D393CA1C7EAB0500DABA01 /* WECopyright.m in Sources */,
+				26D393D01C7EAB0500DABA01 /* WETemperature.m in Sources */,
+				26D393CF1C7EAB0500DABA01 /* WEProvider.m in Sources */,
 				2619C4E81C7D89FE00334266 /* CollectionViewCell.m in Sources */,
 				2619C4E21C7D89DC00334266 /* CollectionReusableView.m in Sources */,
 			);

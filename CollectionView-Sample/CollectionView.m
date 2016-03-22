@@ -27,48 +27,6 @@
     self.delegate = self;
 }
 
-- (NSMutableArray<CollectionReusableViewData *> *)headersData {
-    if (!_headersData) {
-        _headersData = [NSMutableArray array];
-        
-        {
-            CollectionReusableViewData *data = [CollectionReusableViewData new];
-            data.title = @"This is Header";
-            [_headersData addObject:data];
-        }
-    }
-    return _headersData;
-}
-
-- (NSMutableArray<NSMutableArray<CollectionViewCellData *> *> *)cellsData {
-    if (!_cellsData) {
-        _cellsData = [NSMutableArray array];
-        
-        // This is Header
-        {
-            NSMutableArray *section = [NSMutableArray array];
-            {
-                CollectionViewCellData *data = [CollectionViewCellData new];
-                data.title = @"COUNT UP";
-                data.command = ^{
-                    
-                };
-                [section addObject:data];
-            }
-            {
-                CollectionViewCellData *data = [CollectionViewCellData new];
-                data.title = @"COUNT DOWN";
-                data.command = ^{
-                    
-                };
-                [section addObject:data];
-            }
-            [_cellsData addObject:section];
-        }
-    }
-    return _cellsData;
-}
-
 - (NSMutableArray<WEWeather *> *)weathers {
     if (!_weathers) {
         _weathers = [NSMutableArray array];
@@ -130,9 +88,6 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     NSInteger section = indexPath.section;
     NSInteger row = indexPath.row;
-    
-    CollectionViewCellData *data = self.cellsData[section][row];
-    data.command();
 }
 
 @end

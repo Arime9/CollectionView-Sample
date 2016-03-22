@@ -14,10 +14,6 @@
 @interface CollectionView : UICollectionView
 
 @property (nonatomic, weak) UIViewController *vcDelegate;
-
-@property (nonatomic, strong) NSMutableArray<CollectionReusableViewData *> *headersData;
-@property (nonatomic, strong) NSMutableArray<NSMutableArray<CollectionViewCellData *> *> *cellsData;
-
 @property (nonatomic, strong, readonly) NSMutableArray<WEWeather *> *weathers;
 
 @end

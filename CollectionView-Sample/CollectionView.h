@@ -18,6 +18,6 @@
 @property (nonatomic, strong) NSMutableArray<CollectionReusableViewData *> *headersData;
 @property (nonatomic, strong) NSMutableArray<NSMutableArray<CollectionViewCellData *> *> *cellsData;
 
-@property (nonatomic, strong) NSMutableArray<WEWeather *> *weathers;
+@property (nonatomic, strong, readonly) NSMutableArray<WEWeather *> *weathers;
 
 @end

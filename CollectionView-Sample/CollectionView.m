@@ -10,6 +10,8 @@
 
 @interface CollectionView () <UICollectionViewDataSource, UICollectionViewDelegate>
 
+@property (nonatomic, strong, readwrite) NSMutableArray<WEWeather *> *weathers;
+
 @end
 
 @implementation CollectionView
@@ -86,27 +88,28 @@
         }
         
         // 気象情報を地区ID順にソートする(linkの末尾が地区IDに当たる)
-        NSSortDescriptor *areaSortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"self.link" ascending:YES];
-        _weathers = [[weathers sortedArrayUsingDescriptors:@[areaSortDescriptor]] mutableCopy];
+        NSSortDescriptor *citySortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"self.link" ascending:YES];
+        _weathers = [[weathers sortedArrayUsingDescriptors:@[citySortDescriptor]] mutableCopy];
     }
     return _weathers;
 }
 
 #pragma - UICollectionViewDataSource
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return self.headersData.count;
+    return self.weathers.count;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return self.cellsData[section].count;
+    WEWeather *weather = self.weathers[section];
+    return weather.forecasts.count;
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
     NSInteger section = indexPath.section;
     
     CollectionReusableView *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"CollectionReusableView" forIndexPath:indexPath];
-    CollectionReusableViewData *data = self.headersData[section];
-    reusableView.titleLabel.text = data.title;
+    WEWeather *weather = self.weathers[section];
+    reusableView.titleLabel.text = weather.title;
     return reusableView;
 }
 
@@ -115,10 +118,11 @@
     NSInteger row = indexPath.row;
     
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CollectionViewCell" forIndexPath:indexPath];
-    CollectionViewCellData *data = self.cellsData[section][row];
-    cell.titleLabel.text = data.title;
-    cell.aCaptionLabel.text = data.aCaption;
-    cell.bCaptionLabel.text = data.bCaption;
+    WEWeather *weather = self.weathers[section];
+    WEForecast *forecast = weather.forecasts[row];
+    cell.titleLabel.text = forecast.telop;
+    cell.aCaptionLabel.text = forecast.temperature.max.celsius;
+    cell.bCaptionLabel.text = forecast.temperature.min.celsius;
     return cell;
 }
 

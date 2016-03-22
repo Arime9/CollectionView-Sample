@@ -1,5 +1,5 @@
 //
-//	WELocation.h
+//	WEMax.h
 //
 //	Create by Arai on 22/3/2016
 //	Copyright © 2016. All rights reserved.
@@ -9,11 +9,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WELocation : NSObject
+@interface WEMax : NSObject
 
-@property (nonatomic, strong) NSString * area;
-@property (nonatomic, strong) NSString * city;
-@property (nonatomic, strong) NSString * prefecture;
+@property (nonatomic, strong) NSString * celsius;
+@property (nonatomic, strong) NSString * fahrenheit;
 
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary;
 @end

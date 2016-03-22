@@ -1,13 +1,16 @@
 //
 //	WEDescription.m
 //
-//	Create by Arai on 25/2/2016
+//	Create by Arai on 22/3/2016
 //	Copyright © 2016. All rights reserved.
 //	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 
 
 #import "WEDescription.h"
+
+NSString *const kWEDescriptionPublicTime = @"publicTime";
+NSString *const kWEDescriptionText = @"text";
 
 @interface WEDescription ()
 @end
@@ -23,11 +26,11 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
 	self = [super init];
-	if(![dictionary[@"publicTime"] isKindOfClass:[NSNull class]]){
-		self.publicTime = dictionary[@"publicTime"];
+	if(![dictionary[kWEDescriptionPublicTime] isKindOfClass:[NSNull class]]){
+		self.publicTime = dictionary[kWEDescriptionPublicTime];
 	}	
-	if(![dictionary[@"text"] isKindOfClass:[NSNull class]]){
-		self.text = dictionary[@"text"];
+	if(![dictionary[kWEDescriptionText] isKindOfClass:[NSNull class]]){
+		self.text = dictionary[kWEDescriptionText];
 	}	
 	return self;
 }

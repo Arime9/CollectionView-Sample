@@ -1,13 +1,16 @@
 //
 //	WEProvider.m
 //
-//	Create by Arai on 25/2/2016
+//	Create by Arai on 22/3/2016
 //	Copyright © 2016. All rights reserved.
 //	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 
 
 #import "WEProvider.h"
+
+NSString *const kWEProviderLink = @"link";
+NSString *const kWEProviderName = @"name";
 
 @interface WEProvider ()
 @end
@@ -23,11 +26,11 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
 	self = [super init];
-	if(![dictionary[@"link"] isKindOfClass:[NSNull class]]){
-		self.link = dictionary[@"link"];
+	if(![dictionary[kWEProviderLink] isKindOfClass:[NSNull class]]){
+		self.link = dictionary[kWEProviderLink];
 	}	
-	if(![dictionary[@"name"] isKindOfClass:[NSNull class]]){
-		self.name = dictionary[@"name"];
+	if(![dictionary[kWEProviderName] isKindOfClass:[NSNull class]]){
+		self.name = dictionary[kWEProviderName];
 	}	
 	return self;
 }

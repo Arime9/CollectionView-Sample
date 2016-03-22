@@ -1,13 +1,17 @@
 //
 //	WELocation.m
 //
-//	Create by Arai on 25/2/2016
+//	Create by Arai on 22/3/2016
 //	Copyright © 2016. All rights reserved.
 //	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 
 
 #import "WELocation.h"
+
+NSString *const kWELocationArea = @"area";
+NSString *const kWELocationCity = @"city";
+NSString *const kWELocationPrefecture = @"prefecture";
 
 @interface WELocation ()
 @end
@@ -23,14 +27,14 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
 	self = [super init];
-	if(![dictionary[@"area"] isKindOfClass:[NSNull class]]){
-		self.area = dictionary[@"area"];
+	if(![dictionary[kWELocationArea] isKindOfClass:[NSNull class]]){
+		self.area = dictionary[kWELocationArea];
 	}	
-	if(![dictionary[@"city"] isKindOfClass:[NSNull class]]){
-		self.city = dictionary[@"city"];
+	if(![dictionary[kWELocationCity] isKindOfClass:[NSNull class]]){
+		self.city = dictionary[kWELocationCity];
 	}	
-	if(![dictionary[@"prefecture"] isKindOfClass:[NSNull class]]){
-		self.prefecture = dictionary[@"prefecture"];
+	if(![dictionary[kWELocationPrefecture] isKindOfClass:[NSNull class]]){
+		self.prefecture = dictionary[kWELocationPrefecture];
 	}	
 	return self;
 }

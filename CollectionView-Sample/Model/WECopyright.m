@@ -1,13 +1,18 @@
 //
 //	WECopyright.m
 //
-//	Create by Arai on 25/2/2016
+//	Create by Arai on 22/3/2016
 //	Copyright © 2016. All rights reserved.
 //	Model file Generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
 
 
 
 #import "WECopyright.h"
+
+NSString *const kWECopyrightImage = @"image";
+NSString *const kWECopyrightLink = @"link";
+NSString *const kWECopyrightProvider = @"provider";
+NSString *const kWECopyrightTitle = @"title";
 
 @interface WECopyright ()
 @end
@@ -23,15 +28,15 @@
 -(instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
 	self = [super init];
-	if(![dictionary[@"image"] isKindOfClass:[NSNull class]]){
-		self.image = [[WEImage alloc] initWithDictionary:dictionary[@"image"]];
+	if(![dictionary[kWECopyrightImage] isKindOfClass:[NSNull class]]){
+		self.image = [[WEImage alloc] initWithDictionary:dictionary[kWECopyrightImage]];
 	}
 
-	if(![dictionary[@"link"] isKindOfClass:[NSNull class]]){
-		self.link = dictionary[@"link"];
+	if(![dictionary[kWECopyrightLink] isKindOfClass:[NSNull class]]){
+		self.link = dictionary[kWECopyrightLink];
 	}	
-	if(dictionary[@"provider"] != nil && [dictionary[@"provider"] isKindOfClass:[NSArray class]]){
-		NSArray * providerDictionaries = dictionary[@"provider"];
+	if(dictionary[kWECopyrightProvider] != nil && [dictionary[kWECopyrightProvider] isKindOfClass:[NSArray class]]){
+		NSArray * providerDictionaries = dictionary[kWECopyrightProvider];
 		NSMutableArray * providerItems = [NSMutableArray array];
 		for(NSDictionary * providerDictionary in providerDictionaries){
 			WEProvider * providerItem = [[WEProvider alloc] initWithDictionary:providerDictionary];
@@ -39,8 +44,8 @@
 		}
 		self.provider = providerItems;
 	}
-	if(![dictionary[@"title"] isKindOfClass:[NSNull class]]){
-		self.title = dictionary[@"title"];
+	if(![dictionary[kWECopyrightTitle] isKindOfClass:[NSNull class]]){
+		self.title = dictionary[kWECopyrightTitle];
 	}	
 	return self;
 }

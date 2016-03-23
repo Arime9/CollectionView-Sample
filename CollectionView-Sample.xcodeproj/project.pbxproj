@@ -26,8 +26,9 @@
 		26A4ADD21CA26DAD00B808DC /* MainCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADC81CA26DAD00B808DC /* MainCollectionReusableView.m */; };
 		26A4ADD31CA26DAD00B808DC /* MainCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADCA1CA26DAD00B808DC /* MainCollectionView.m */; };
 		26A4ADD41CA26DAD00B808DC /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADCC1CA26DAD00B808DC /* MainCollectionViewCell.m */; };
-		26A4ADD51CA26DAD00B808DC /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADCE1CA26DAD00B808DC /* MainNavigationController.m */; };
 		26A4ADD61CA26DAD00B808DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADD01CA26DAD00B808DC /* MainViewController.m */; };
+		26A4ADDA1CA26E6A00B808DC /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A4ADD91CA26E6A00B808DC /* Detail.storyboard */; };
+		26A4ADE01CA26EE500B808DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADDF1CA26EE500B808DC /* DetailViewController.m */; };
 		26D393AB1C7EA19000DABA01 /* akita.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939D1C7EA19000DABA01 /* akita.json */; };
 		26D393AC1C7EA19000DABA01 /* hiroshima.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939E1C7EA19000DABA01 /* hiroshima.json */; };
 		26D393AD1C7EA19000DABA01 /* hukuoka.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939F1C7EA19000DABA01 /* hukuoka.json */; };
@@ -100,10 +101,11 @@
 		26A4ADCA1CA26DAD00B808DC /* MainCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionView.m; sourceTree = "<group>"; };
 		26A4ADCB1CA26DAD00B808DC /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
 		26A4ADCC1CA26DAD00B808DC /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
-		26A4ADCD1CA26DAD00B808DC /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
-		26A4ADCE1CA26DAD00B808DC /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		26A4ADCF1CA26DAD00B808DC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		26A4ADD01CA26DAD00B808DC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		26A4ADD91CA26E6A00B808DC /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		26A4ADDE1CA26EE500B808DC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		26A4ADDF1CA26EE500B808DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		26D3939D1C7EA19000DABA01 /* akita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = akita.json; sourceTree = "<group>"; };
 		26D3939E1C7EA19000DABA01 /* hiroshima.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hiroshima.json; sourceTree = "<group>"; };
 		26D3939F1C7EA19000DABA01 /* hukuoka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hukuoka.json; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				2619C4AA1C7D85D300334266 /* AppDelegate.h */,
 				2619C4AB1C7D85D300334266 /* AppDelegate.m */,
 				26A4ADC51CA26DAD00B808DC /* Main */,
+				26A4ADD81CA26E5700B808DC /* Detail */,
 				2663E90E1CA13603008942A3 /* Model */,
 				2619C4B31C7D85D300334266 /* Assets.xcassets */,
 				2619C4B51C7D85D300334266 /* LaunchScreen.storyboard */,
@@ -236,8 +239,6 @@
 			isa = PBXGroup;
 			children = (
 				26A4ADC61CA26DAD00B808DC /* Main.storyboard */,
-				26A4ADCD1CA26DAD00B808DC /* MainNavigationController.h */,
-				26A4ADCE1CA26DAD00B808DC /* MainNavigationController.m */,
 				26A4ADCF1CA26DAD00B808DC /* MainViewController.h */,
 				26A4ADD01CA26DAD00B808DC /* MainViewController.m */,
 				26A4ADC91CA26DAD00B808DC /* MainCollectionView.h */,
@@ -248,6 +249,16 @@
 				26A4ADCC1CA26DAD00B808DC /* MainCollectionViewCell.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		26A4ADD81CA26E5700B808DC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				26A4ADD91CA26E6A00B808DC /* Detail.storyboard */,
+				26A4ADDE1CA26EE500B808DC /* DetailViewController.h */,
+				26A4ADDF1CA26EE500B808DC /* DetailViewController.m */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		26D3939A1C7E9E0100DABA01 /* Resource */ = {
@@ -385,6 +396,7 @@
 				2619C4B41C7D85D300334266 /* Assets.xcassets in Resources */,
 				26D393B71C7EA19000DABA01 /* sendai.json in Resources */,
 				26D393B41C7EA19000DABA01 /* niigata.json in Resources */,
+				26A4ADDA1CA26E6A00B808DC /* Detail.storyboard in Resources */,
 				26D393AD1C7EA19000DABA01 /* hukuoka.json in Resources */,
 				26D393AE1C7EA19000DABA01 /* kagoshima.json in Resources */,
 				26D393B61C7EA19000DABA01 /* sapporo.json in Resources */,
@@ -417,6 +429,7 @@
 			files = (
 				2663E9231CA13603008942A3 /* WEForecast.m in Sources */,
 				2663E9241CA13603008942A3 /* WEImage.m in Sources */,
+				26A4ADE01CA26EE500B808DC /* DetailViewController.m in Sources */,
 				2663E9291CA13603008942A3 /* WEWeather.m in Sources */,
 				26A4ADD61CA26DAD00B808DC /* MainViewController.m in Sources */,
 				2619C4AC1C7D85D300334266 /* AppDelegate.m in Sources */,
@@ -430,7 +443,6 @@
 				26A4ADD41CA26DAD00B808DC /* MainCollectionViewCell.m in Sources */,
 				2663E9211CA13603008942A3 /* WECopyright.m in Sources */,
 				2663E9271CA13603008942A3 /* WEProvider.m in Sources */,
-				26A4ADD51CA26DAD00B808DC /* MainNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

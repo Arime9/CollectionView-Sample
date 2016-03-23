@@ -7,6 +7,7 @@
 //
 
 #import "MainCollectionView.h"
+#import "DetailViewController.h"
 
 @interface MainCollectionView () <UICollectionViewDataSource, UICollectionViewDelegate>
 
@@ -64,9 +65,9 @@
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
     NSInteger section = indexPath.section;
+    WEWeather *weather = self.weathers[section];
     
     MainCollectionReusableView *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"MainCollectionReusableView" forIndexPath:indexPath];
-    WEWeather *weather = self.weathers[section];
     reusableView.titleLabel.text = weather.title;
     return reusableView;
 }
@@ -75,9 +76,10 @@
     NSInteger section = indexPath.section;
     NSInteger row = indexPath.row;
     
-    MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainCollectionViewCell" forIndexPath:indexPath];
     WEWeather *weather = self.weathers[section];
     WEForecast *forecast = weather.forecasts[row];
+    
+    MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainCollectionViewCell" forIndexPath:indexPath];
     cell.dateLabel.text = forecast.dateLabel;
     cell.weatherImageView.image = [UIImage imageNamed:forecast.image.url.lastPathComponent];
     cell.maxLabel.text = [forecast.temperature.max.celsius stringByAppendingString:@"°C"];
@@ -88,9 +90,13 @@
 
 #pragma - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    // TODO: A
     NSInteger section = indexPath.section;
-    NSInteger row = indexPath.row;
+    WEWeather *weather = self.weathers[section];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Detail" bundle:nil];
+    DetailViewController *vc = [storyboard instantiateInitialViewController];
+    vc.weather = weather;
+    [self.vcDelegate.navigationController pushViewController:vc animated:YES];
 }
 
 @end

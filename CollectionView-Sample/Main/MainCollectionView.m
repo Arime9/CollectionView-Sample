@@ -97,6 +97,7 @@
     NSInteger section = indexPath.section;
     WEWeather *weather = self.weathers[section];
     
+    // 詳細画面へ遷移する
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Detail" bundle:nil];
     DetailViewController *vc = [storyboard instantiateInitialViewController];
     vc.weather = weather;

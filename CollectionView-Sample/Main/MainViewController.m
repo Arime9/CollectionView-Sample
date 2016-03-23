@@ -40,6 +40,17 @@
     
     // スクロールインジケータを光らせることで、スクロール可能なことを知らせる
     [self.collectionView flashScrollIndicators];
+    
+    
+    /**
+     * アイテムの選択解除
+     *
+     * [UICollectionViewDelegate collectionView:didSelectItemAtIndexPath] でなく、
+     * ここで処理を行うと、視覚的に伝えて易くなる
+     */
+    for (NSIndexPath *indexPath in self.collectionView.indexPathsForSelectedItems) {
+        [self.collectionView deselectItemAtIndexPath:indexPath animated:YES];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated {

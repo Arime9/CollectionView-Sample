@@ -46,7 +46,7 @@
      * アイテムの選択解除
      *
      * [UICollectionViewDelegate collectionView:didSelectItemAtIndexPath] でなく、
-     * ここで処理を行うと、視覚的に伝えて易くなる
+     * ここで処理を行うと、視覚的に伝わり易い
      */
     for (NSIndexPath *indexPath in self.collectionView.indexPathsForSelectedItems) {
         [self.collectionView deselectItemAtIndexPath:indexPath animated:YES];

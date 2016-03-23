@@ -28,6 +28,7 @@
 		2663E9271CA13603008942A3 /* WEProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663E91C1CA13603008942A3 /* WEProvider.m */; };
 		2663E9281CA13603008942A3 /* WETemperature.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663E91E1CA13603008942A3 /* WETemperature.m */; };
 		2663E9291CA13603008942A3 /* WEWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663E9201CA13603008942A3 /* WEWeather.m */; };
+		268522681CA22684000323A5 /* 25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 268522671CA22684000323A5 /* 25.gif */; };
 		26D393AB1C7EA19000DABA01 /* akita.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939D1C7EA19000DABA01 /* akita.json */; };
 		26D393AC1C7EA19000DABA01 /* hiroshima.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939E1C7EA19000DABA01 /* hiroshima.json */; };
 		26D393AD1C7EA19000DABA01 /* hukuoka.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939F1C7EA19000DABA01 /* hukuoka.json */; };
@@ -104,6 +105,7 @@
 		2663E91E1CA13603008942A3 /* WETemperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WETemperature.m; sourceTree = "<group>"; };
 		2663E91F1CA13603008942A3 /* WEWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEWeather.h; sourceTree = "<group>"; };
 		2663E9201CA13603008942A3 /* WEWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEWeather.m; sourceTree = "<group>"; };
+		268522671CA22684000323A5 /* 25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 25.gif; path = ../../../../../../Users/arai/Downloads/25.gif; sourceTree = "<group>"; };
 		26D3939D1C7EA19000DABA01 /* akita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = akita.json; sourceTree = "<group>"; };
 		26D3939E1C7EA19000DABA01 /* hiroshima.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hiroshima.json; sourceTree = "<group>"; };
 		26D3939F1C7EA19000DABA01 /* hukuoka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hukuoka.json; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 		26D3939A1C7E9E0100DABA01 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				268522671CA22684000323A5 /* 25.gif */,
 				26D3939D1C7EA19000DABA01 /* akita.json */,
 				26D3939E1C7EA19000DABA01 /* hiroshima.json */,
 				26D3939F1C7EA19000DABA01 /* hukuoka.json */,
@@ -381,6 +384,7 @@
 				26D393B61C7EA19000DABA01 /* sapporo.json in Resources */,
 				26D393AF1C7EA19000DABA01 /* kouchi.json in Resources */,
 				26D393B31C7EA19000DABA01 /* naha.json in Resources */,
+				268522681CA22684000323A5 /* 25.gif in Resources */,
 				26D393B21C7EA19000DABA01 /* nagoya.json in Resources */,
 				2619C4B21C7D85D300334266 /* Main.storyboard in Resources */,
 			);

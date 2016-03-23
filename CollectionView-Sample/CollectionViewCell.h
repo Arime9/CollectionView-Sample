@@ -10,9 +10,11 @@
 
 @interface CollectionViewCell : UICollectionViewCell
 
-@property (nonatomic, weak) IBOutlet UILabel *titleLabel;
-@property (nonatomic, weak) IBOutlet UILabel *aCaptionLabel;
-@property (nonatomic, weak) IBOutlet UILabel *bCaptionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *dateLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *weatherImageView;
+@property (nonatomic, weak) IBOutlet UILabel *maxLabel;
+@property (nonatomic, weak) IBOutlet UILabel *slashLabel;
+@property (nonatomic, weak) IBOutlet UILabel *minLabel;
 
 @end
 

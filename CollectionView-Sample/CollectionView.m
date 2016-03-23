@@ -78,14 +78,17 @@
     CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CollectionViewCell" forIndexPath:indexPath];
     WEWeather *weather = self.weathers[section];
     WEForecast *forecast = weather.forecasts[row];
-    cell.titleLabel.text = forecast.telop;
-    cell.aCaptionLabel.text = forecast.temperature.max.celsius;
-    cell.bCaptionLabel.text = forecast.temperature.min.celsius;
+    cell.dateLabel.text = forecast.dateLabel;
+    cell.weatherImageView.image = [UIImage imageNamed:@"25.gif"];
+    cell.maxLabel.text = [forecast.temperature.max.celsius stringByAppendingString:@"°C"];
+    cell.slashLabel.text = @"/";
+    cell.minLabel.text = [forecast.temperature.min.celsius stringByAppendingString:@"°C"];
     return cell;
 }
 
 #pragma - UICollectionViewDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    // TODO: A
     NSInteger section = indexPath.section;
     NSInteger row = indexPath.row;
 }

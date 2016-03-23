@@ -53,7 +53,9 @@
     return _weathers;
 }
 
-#pragma - UICollectionViewDataSource
+#pragma mark
+#pragma mark UICollectionViewDataSource
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return self.weathers.count;
 }
@@ -88,7 +90,9 @@
     return cell;
 }
 
-#pragma - UICollectionViewDelegate
+#pragma mark
+#pragma mark UICollectionViewDelegate
+
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     NSInteger section = indexPath.section;
     WEWeather *weather = self.weathers[section];

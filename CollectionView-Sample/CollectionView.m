@@ -79,7 +79,7 @@
     WEWeather *weather = self.weathers[section];
     WEForecast *forecast = weather.forecasts[row];
     cell.dateLabel.text = forecast.dateLabel;
-    cell.weatherImageView.image = [UIImage imageNamed:@"25.gif"];
+    cell.weatherImageView.image = [UIImage imageNamed:forecast.image.url.lastPathComponent];
     cell.maxLabel.text = [forecast.temperature.max.celsius stringByAppendingString:@"°C"];
     cell.slashLabel.text = @"/";
     cell.minLabel.text = [forecast.temperature.min.celsius stringByAppendingString:@"°C"];

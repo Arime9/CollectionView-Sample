@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) WEWeather *weather;
 
+@property (nonatomic, weak) IBOutlet UILabel *descriptionLabel;
+
 @end

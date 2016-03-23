@@ -25,6 +25,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.title = self.weather.title;
+    self.descriptionLabel.text = self.weather.descriptionField.text;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

@@ -13,10 +13,3 @@
 @property (nonatomic, weak) IBOutlet UILabel *titleLabel;
 
 @end
-
-
-@interface CollectionReusableViewData : NSObject
-
-@property (nonatomic, strong) NSString *title;
-
-@end

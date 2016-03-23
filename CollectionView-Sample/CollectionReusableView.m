@@ -15,20 +15,3 @@
 @implementation CollectionReusableView
 
 @end
-
-
-@interface CollectionReusableViewData ()
-
-@end
-
-@implementation CollectionReusableViewData
-
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        _title = @"";
-    }
-    return self;
-}
-
-@end

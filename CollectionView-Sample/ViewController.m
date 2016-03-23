@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 画面遷移に使用
     self.collectionView.vcDelegate = self;
 }
 

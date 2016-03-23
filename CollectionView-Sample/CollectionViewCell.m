@@ -21,28 +21,10 @@
 
 - (void)awaker {
     // Initialization code
+    
+    // 選択時の色を指定
     self.selectedBackgroundView = [UIView new];
     self.selectedBackgroundView.backgroundColor = self.tintColor;
-}
-
-@end
-
-
-@interface CollectionViewCellData ()
-
-@end
-
-@implementation CollectionViewCellData
-
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        _title = @"";
-        _aCaption = @"";
-        _bCaption = @"";
-        _command = nil;
-    }
-    return self;
 }
 
 @end

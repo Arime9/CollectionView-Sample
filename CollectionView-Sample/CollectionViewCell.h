@@ -17,15 +17,3 @@
 @property (nonatomic, weak) IBOutlet UILabel *minLabel;
 
 @end
-
-
-@interface CollectionViewCellData : NSObject
-
-typedef void(^Command)();
-
-@property (nonatomic, strong) NSString *title;
-@property (nonatomic, strong) NSString *aCaption;
-@property (nonatomic, strong) NSString *bCaption;
-@property (nonatomic, copy) Command command;
-
-@end

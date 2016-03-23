@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
 //  Copyright © 2016年 masato_arai. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)awakeFromNib {
     [super awakeFromNib];

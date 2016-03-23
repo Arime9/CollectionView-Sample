@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		2619C4A91C7D85D300334266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4A81C7D85D300334266 /* main.m */; };
 		2619C4AC1C7D85D300334266 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4AB1C7D85D300334266 /* AppDelegate.m */; };
-		2619C4AF1C7D85D300334266 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4AE1C7D85D300334266 /* ViewController.m */; };
+		2619C4AF1C7D85D300334266 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4AE1C7D85D300334266 /* MainViewController.m */; };
 		2619C4B21C7D85D300334266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2619C4B01C7D85D300334266 /* Main.storyboard */; };
 		2619C4B41C7D85D300334266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2619C4B31C7D85D300334266 /* Assets.xcassets */; };
 		2619C4B71C7D85D300334266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2619C4B51C7D85D300334266 /* LaunchScreen.storyboard */; };
 		2619C4C21C7D85D300334266 /* CollectionView_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4C11C7D85D300334266 /* CollectionView_SampleTests.m */; };
 		2619C4CD1C7D85D300334266 /* CollectionView_SampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4CC1C7D85D300334266 /* CollectionView_SampleUITests.m */; };
-		2619C4DC1C7D891400334266 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4DB1C7D891400334266 /* NavigationController.m */; };
-		2619C4E21C7D89DC00334266 /* CollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4E11C7D89DC00334266 /* CollectionReusableView.m */; };
-		2619C4E51C7D89EF00334266 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4E41C7D89EF00334266 /* CollectionView.m */; };
-		2619C4E81C7D89FE00334266 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4E71C7D89FE00334266 /* CollectionViewCell.m */; };
+		2619C4DC1C7D891400334266 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4DB1C7D891400334266 /* MainNavigationController.m */; };
+		2619C4E21C7D89DC00334266 /* MainCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4E11C7D89DC00334266 /* MainCollectionReusableView.m */; };
+		2619C4E51C7D89EF00334266 /* MainCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4E41C7D89EF00334266 /* MainCollectionView.m */; };
+		2619C4E81C7D89FE00334266 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2619C4E71C7D89FE00334266 /* MainCollectionViewCell.m */; };
 		2663E9211CA13603008942A3 /* WECopyright.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663E9101CA13603008942A3 /* WECopyright.m */; };
 		2663E9221CA13603008942A3 /* WEDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663E9121CA13603008942A3 /* WEDescription.m */; };
 		2663E9231CA13603008942A3 /* WEForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2663E9141CA13603008942A3 /* WEForecast.m */; };
@@ -66,8 +66,8 @@
 		2619C4A81C7D85D300334266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2619C4AA1C7D85D300334266 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2619C4AB1C7D85D300334266 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2619C4AD1C7D85D300334266 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2619C4AE1C7D85D300334266 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2619C4AD1C7D85D300334266 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2619C4AE1C7D85D300334266 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		2619C4B11C7D85D300334266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2619C4B31C7D85D300334266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2619C4B61C7D85D300334266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,14 +78,14 @@
 		2619C4C81C7D85D300334266 /* CollectionView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CollectionView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2619C4CC1C7D85D300334266 /* CollectionView_SampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionView_SampleUITests.m; sourceTree = "<group>"; };
 		2619C4CE1C7D85D300334266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2619C4DA1C7D891400334266 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		2619C4DB1C7D891400334266 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
-		2619C4E01C7D89DC00334266 /* CollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionReusableView.h; sourceTree = "<group>"; };
-		2619C4E11C7D89DC00334266 /* CollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionReusableView.m; sourceTree = "<group>"; };
-		2619C4E31C7D89EF00334266 /* CollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
-		2619C4E41C7D89EF00334266 /* CollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
-		2619C4E61C7D89FE00334266 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
-		2619C4E71C7D89FE00334266 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		2619C4DA1C7D891400334266 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		2619C4DB1C7D891400334266 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		2619C4E01C7D89DC00334266 /* MainCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionReusableView.h; sourceTree = "<group>"; };
+		2619C4E11C7D89DC00334266 /* MainCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionReusableView.m; sourceTree = "<group>"; };
+		2619C4E31C7D89EF00334266 /* MainCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionView.h; sourceTree = "<group>"; };
+		2619C4E41C7D89EF00334266 /* MainCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionView.m; sourceTree = "<group>"; };
+		2619C4E61C7D89FE00334266 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		2619C4E71C7D89FE00334266 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
 		2663E90F1CA13603008942A3 /* WECopyright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WECopyright.h; sourceTree = "<group>"; };
 		2663E9101CA13603008942A3 /* WECopyright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WECopyright.m; sourceTree = "<group>"; };
 		2663E9111CA13603008942A3 /* WEDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEDescription.h; sourceTree = "<group>"; };
@@ -171,16 +171,16 @@
 				2619C4AA1C7D85D300334266 /* AppDelegate.h */,
 				2619C4AB1C7D85D300334266 /* AppDelegate.m */,
 				2619C4B01C7D85D300334266 /* Main.storyboard */,
-				2619C4DA1C7D891400334266 /* NavigationController.h */,
-				2619C4DB1C7D891400334266 /* NavigationController.m */,
-				2619C4AD1C7D85D300334266 /* ViewController.h */,
-				2619C4AE1C7D85D300334266 /* ViewController.m */,
-				2619C4E31C7D89EF00334266 /* CollectionView.h */,
-				2619C4E41C7D89EF00334266 /* CollectionView.m */,
-				2619C4E01C7D89DC00334266 /* CollectionReusableView.h */,
-				2619C4E11C7D89DC00334266 /* CollectionReusableView.m */,
-				2619C4E61C7D89FE00334266 /* CollectionViewCell.h */,
-				2619C4E71C7D89FE00334266 /* CollectionViewCell.m */,
+				2619C4DA1C7D891400334266 /* MainNavigationController.h */,
+				2619C4DB1C7D891400334266 /* MainNavigationController.m */,
+				2619C4AD1C7D85D300334266 /* MainViewController.h */,
+				2619C4AE1C7D85D300334266 /* MainViewController.m */,
+				2619C4E31C7D89EF00334266 /* MainCollectionView.h */,
+				2619C4E41C7D89EF00334266 /* MainCollectionView.m */,
+				2619C4E01C7D89DC00334266 /* MainCollectionReusableView.h */,
+				2619C4E11C7D89DC00334266 /* MainCollectionReusableView.m */,
+				2619C4E61C7D89FE00334266 /* MainCollectionViewCell.h */,
+				2619C4E71C7D89FE00334266 /* MainCollectionViewCell.m */,
 				2663E90E1CA13603008942A3 /* Model */,
 				2619C4B31C7D85D300334266 /* Assets.xcassets */,
 				2619C4B51C7D85D300334266 /* LaunchScreen.storyboard */,
@@ -410,9 +410,9 @@
 				2663E9231CA13603008942A3 /* WEForecast.m in Sources */,
 				2663E9241CA13603008942A3 /* WEImage.m in Sources */,
 				2663E9291CA13603008942A3 /* WEWeather.m in Sources */,
-				2619C4E51C7D89EF00334266 /* CollectionView.m in Sources */,
-				2619C4AF1C7D85D300334266 /* ViewController.m in Sources */,
-				2619C4DC1C7D891400334266 /* NavigationController.m in Sources */,
+				2619C4E51C7D89EF00334266 /* MainCollectionView.m in Sources */,
+				2619C4AF1C7D85D300334266 /* MainViewController.m in Sources */,
+				2619C4DC1C7D891400334266 /* MainNavigationController.m in Sources */,
 				2619C4AC1C7D85D300334266 /* AppDelegate.m in Sources */,
 				2619C4A91C7D85D300334266 /* main.m in Sources */,
 				2663E9281CA13603008942A3 /* WETemperature.m in Sources */,
@@ -420,9 +420,9 @@
 				2663E9251CA13603008942A3 /* WELocation.m in Sources */,
 				2663E9261CA13603008942A3 /* WEMax.m in Sources */,
 				2663E9211CA13603008942A3 /* WECopyright.m in Sources */,
-				2619C4E81C7D89FE00334266 /* CollectionViewCell.m in Sources */,
+				2619C4E81C7D89FE00334266 /* MainCollectionViewCell.m in Sources */,
 				2663E9271CA13603008942A3 /* WEProvider.m in Sources */,
-				2619C4E21C7D89DC00334266 /* CollectionReusableView.m in Sources */,
+				2619C4E21C7D89DC00334266 /* MainCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

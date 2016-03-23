@@ -1,18 +1,18 @@
 //
-//  CollectionViewCell.m
+//  MainCollectionViewCell.m
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
 //  Copyright © 2016年 masato_arai. All rights reserved.
 //
 
-#import "CollectionViewCell.h"
+#import "MainCollectionViewCell.h"
 
-@interface CollectionViewCell ()
+@interface MainCollectionViewCell ()
 
 @end
 
-@implementation CollectionViewCell
+@implementation MainCollectionViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

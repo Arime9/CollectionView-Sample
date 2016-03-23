@@ -1,18 +1,18 @@
 //
-//  NavigationController.m
+//  MainNavigationController.m
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
 //  Copyright © 2016年 masato_arai. All rights reserved.
 //
 
-#import "NavigationController.h"
+#import "MainNavigationController.h"
 
-@interface NavigationController ()
+@interface MainNavigationController ()
 
 @end
 
-@implementation NavigationController
+@implementation MainNavigationController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

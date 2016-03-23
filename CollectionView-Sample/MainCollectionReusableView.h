@@ -1,5 +1,5 @@
 //
-//  CollectionReusableView.h
+//  MainCollectionReusableView.h
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CollectionReusableView : UICollectionReusableView
+@interface MainCollectionReusableView : UICollectionReusableView
 
 @property (nonatomic, weak) IBOutlet UILabel *titleLabel;
 

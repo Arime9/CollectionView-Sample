@@ -1,5 +1,5 @@
 //
-//  CollectionViewCell.h
+//  MainCollectionViewCell.h
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CollectionViewCell : UICollectionViewCell
+@interface MainCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, weak) IBOutlet UILabel *dateLabel;
 @property (nonatomic, weak) IBOutlet UIImageView *weatherImageView;

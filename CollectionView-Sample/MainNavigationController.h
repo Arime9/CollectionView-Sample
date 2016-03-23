@@ -1,5 +1,5 @@
 //
-//  NavigationController.h
+//  MainNavigationController.h
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NavigationController : UINavigationController
+@interface MainNavigationController : UINavigationController
 
 @end

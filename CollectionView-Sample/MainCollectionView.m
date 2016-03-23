@@ -1,20 +1,20 @@
 //
-//  CollectionView.m
+//  MainCollectionView.m
 //  CollectionView-Sample
 //
 //  Created by Arai on 2016/02/24.
 //  Copyright © 2016年 masato_arai. All rights reserved.
 //
 
-#import "CollectionView.h"
+#import "MainCollectionView.h"
 
-@interface CollectionView () <UICollectionViewDataSource, UICollectionViewDelegate>
+@interface MainCollectionView () <UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (nonatomic, strong, readwrite) NSMutableArray<WEWeather *> *weathers;
 
 @end
 
-@implementation CollectionView
+@implementation MainCollectionView
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -65,7 +65,7 @@
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
     NSInteger section = indexPath.section;
     
-    CollectionReusableView *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"CollectionReusableView" forIndexPath:indexPath];
+    MainCollectionReusableView *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"MainCollectionReusableView" forIndexPath:indexPath];
     WEWeather *weather = self.weathers[section];
     reusableView.titleLabel.text = weather.title;
     return reusableView;
@@ -75,7 +75,7 @@
     NSInteger section = indexPath.section;
     NSInteger row = indexPath.row;
     
-    CollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"CollectionViewCell" forIndexPath:indexPath];
+    MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainCollectionViewCell" forIndexPath:indexPath];
     WEWeather *weather = self.weathers[section];
     WEForecast *forecast = weather.forecasts[row];
     cell.dateLabel.text = forecast.dateLabel;

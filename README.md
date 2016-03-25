@@ -1,21 +1,27 @@
 # CollectionView-Sample
+UICollectionViewの基本的な使い方をまとめたサンプルコードです。  
+対象者は、UITableViewを使ったことがあるくらいです。扱っている内容は以下の通りです。
 
-## UICollectionViewの基本的な使い方をまとめたサンプルコードです。
-対象者は、UITableViewを使ったことがあるくらいです。また「天気予報」アプリをベースに以下のことに触れています。
-
-### UI系
-* Storyboardを使った、__UICollectionView__の作成
-* __UICollectionReusableView__の基本的な使い方
-* __UICollectionViewCell__の基本的な使い方
+# UI系
+* __UICollectionView__ をStoryboardで作成する
+* __UICollectionReusableView__ の基本的な使い方
+* __UICollectionViewCell__ の基本的な使い方
  
-### 処理系
+# 処理系
 * __JSON__のシニアライズ (JSONファイルをNSDictionaryへ格納する)
 * [JSONExport](https://github.com/Ahmed-Ali/JSONExport) を使用した、データ管理
-* __データのソート__
+* __データソート__
  
-### 画面遷移
-* 画面遷移の際に、__データを渡す__
+# 画面遷移
+* 画面遷移と、データの受け渡し
  
-### その他
-* __UIImageView__を使って、画像を表示する
-* __UILabel__を使って、文字を表示する
+# その他
+* __UIImageView__ で画像を表示する
+* __UILabel__ で文字を表示する
+
+# ライセンス
+MIT Licenseの下自由に使用して頂いて構いません。  
+但し外部ソース・リソース等はそれらに準拠してください。
+
+* 天気情報のモデルクラス：[JSONExport](https://github.com/Ahmed-Ali/JSONExport)
+* 天気画像・JSONファイル：[Weather Hacks](http://weather.livedoor.com/weather_hacks/qa)

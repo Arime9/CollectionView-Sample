@@ -9,7 +9,7 @@ UICollectionViewの基本的な使い方をまとめたサンプルコードで�
  
 # 処理系
 * __JSON__のシニアライズ (JSONファイルをNSDictionaryへ格納する)
-* [JSONExport](https://github.com/Ahmed-Ali/JSONExport) を使用した、データ管理
+* [__JSONExport__](https://github.com/Ahmed-Ali/JSONExport) を使用した、データ管理
 * __データソート__
  
 # 画面遷移

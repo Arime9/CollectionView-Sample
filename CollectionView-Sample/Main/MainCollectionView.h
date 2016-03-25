@@ -2,8 +2,8 @@
 //  MainCollectionView.h
 //  CollectionView-Sample
 //
-//  Created by Arai on 2016/02/24.
-//  Copyright © 2016年 masato_arai. All rights reserved.
+//  Created by masato_arai on 2016/02/24.
+//  Copyright (c) 2016年 Tea and Coffee. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

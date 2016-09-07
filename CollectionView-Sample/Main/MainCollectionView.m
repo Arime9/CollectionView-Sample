@@ -91,14 +91,19 @@
     
     MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainCollectionViewCell" forIndexPath:indexPath];
     cell.dateLabel.text = forecast.dateLabel;
-    cell.weatherImageView.image = [self imageWithAssetsName:forecast.image.url.lastPathComponent.stringByDeletingPathExtension];
+    cell.weatherImageView.image = [self imageWithAssetName:[self lastPathName:forecast.image.url]];
     cell.maxLabel.text = [forecast.temperature.max.celsius stringByAppendingString:@"°C"];
     cell.slashLabel.text = @"/";
     cell.minLabel.text = [forecast.temperature.min.celsius stringByAppendingString:@"°C"];
     return cell;
 }
 
-- (UIImage *)imageWithAssetsName:(NSString *)name {
+- (NSString *)lastPathName:(NSString *)URLString {
+    NSString *s1 = URLString.lastPathComponent.stringByDeletingPathExtension;
+    return s1;
+}
+
+- (UIImage *)imageWithAssetName:(NSString *)name {
     NSDataAsset *dataAsset = [[NSDataAsset alloc] initWithName:name];
     UIImage *image = [UIImage imageWithData:dataAsset.data];
     return image;

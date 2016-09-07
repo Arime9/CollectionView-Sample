@@ -34,13 +34,12 @@
         
         // JSONから気象情報を取得する
         NSMutableArray<WEWeather *> *weathers = [NSMutableArray array];
-        NSArray<NSURL *> *jsonURLs = [[NSBundle mainBundle] URLsForResourcesWithExtension:@"json" subdirectory:nil];
-        for (NSURL *jsonURL in jsonURLs) {
-            NSError *createError;
-            NSData *jsonData = [NSData dataWithContentsOfURL:jsonURL options:0 error:&createError];
-            
+        NSArray<NSString *> *assetsNames = @[@"akita", @"hiroshima", @"hukuoka", @"kagoshima", @"kouchi", @"kushiro", @"nagano", @"nagoya", @"naha", @"niigata", @"oosaka", @"sapporo", @"sendai", @"tokyo"];
+        NSArray<NSDataAsset *> *dataAssets = [self dataAssetsWithNames:assetsNames];
+        
+        for (NSDataAsset *dataAsset in dataAssets) {
             NSError *serializeError;
-            NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:&serializeError];
+            NSDictionary *jsonDic = [NSJSONSerialization JSONObjectWithData:dataAsset.data options:0 error:&serializeError];
             
             WEWeather *weather = [[WEWeather alloc] initWithDictionary:jsonDic];
             [weathers addObject:weather];
@@ -51,6 +50,15 @@
         _weathers = [[weathers sortedArrayUsingDescriptors:@[citySortDescriptor]] mutableCopy];
     }
     return _weathers;
+}
+
+- (NSArray<NSDataAsset *> *)dataAssetsWithNames:(NSArray<NSString *> *)names {
+    NSMutableArray *_dataAssets = [NSMutableArray array];
+    for (NSString *name in names) {
+        NSDataAsset *dataAsset = [[NSDataAsset alloc] initWithName:name];
+        [_dataAssets addObject:dataAsset];
+    }
+    return [_dataAssets copy];
 }
 
 #pragma mark

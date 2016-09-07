@@ -29,20 +29,6 @@
 		26A4ADD61CA26DAD00B808DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADD01CA26DAD00B808DC /* MainViewController.m */; };
 		26A4ADDA1CA26E6A00B808DC /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A4ADD91CA26E6A00B808DC /* Detail.storyboard */; };
 		26A4ADE01CA26EE500B808DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4ADDF1CA26EE500B808DC /* DetailViewController.m */; };
-		26D393AB1C7EA19000DABA01 /* akita.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939D1C7EA19000DABA01 /* akita.json */; };
-		26D393AC1C7EA19000DABA01 /* hiroshima.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939E1C7EA19000DABA01 /* hiroshima.json */; };
-		26D393AD1C7EA19000DABA01 /* hukuoka.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D3939F1C7EA19000DABA01 /* hukuoka.json */; };
-		26D393AE1C7EA19000DABA01 /* kagoshima.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A01C7EA19000DABA01 /* kagoshima.json */; };
-		26D393AF1C7EA19000DABA01 /* kouchi.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A11C7EA19000DABA01 /* kouchi.json */; };
-		26D393B01C7EA19000DABA01 /* kushiro.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A21C7EA19000DABA01 /* kushiro.json */; };
-		26D393B11C7EA19000DABA01 /* nagano.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A31C7EA19000DABA01 /* nagano.json */; };
-		26D393B21C7EA19000DABA01 /* nagoya.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A41C7EA19000DABA01 /* nagoya.json */; };
-		26D393B31C7EA19000DABA01 /* naha.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A51C7EA19000DABA01 /* naha.json */; };
-		26D393B41C7EA19000DABA01 /* niigata.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A61C7EA19000DABA01 /* niigata.json */; };
-		26D393B51C7EA19000DABA01 /* oosaka.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A71C7EA19000DABA01 /* oosaka.json */; };
-		26D393B61C7EA19000DABA01 /* sapporo.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A81C7EA19000DABA01 /* sapporo.json */; };
-		26D393B71C7EA19000DABA01 /* sendai.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393A91C7EA19000DABA01 /* sendai.json */; };
-		26D393B81C7EA19000DABA01 /* tokyo.json in Resources */ = {isa = PBXBuildFile; fileRef = 26D393AA1C7EA19000DABA01 /* tokyo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,20 +92,6 @@
 		26A4ADD91CA26E6A00B808DC /* Detail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		26A4ADDE1CA26EE500B808DC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		26A4ADDF1CA26EE500B808DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		26D3939D1C7EA19000DABA01 /* akita.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = akita.json; sourceTree = "<group>"; };
-		26D3939E1C7EA19000DABA01 /* hiroshima.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hiroshima.json; sourceTree = "<group>"; };
-		26D3939F1C7EA19000DABA01 /* hukuoka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hukuoka.json; sourceTree = "<group>"; };
-		26D393A01C7EA19000DABA01 /* kagoshima.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kagoshima.json; sourceTree = "<group>"; };
-		26D393A11C7EA19000DABA01 /* kouchi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kouchi.json; sourceTree = "<group>"; };
-		26D393A21C7EA19000DABA01 /* kushiro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kushiro.json; sourceTree = "<group>"; };
-		26D393A31C7EA19000DABA01 /* nagano.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nagano.json; sourceTree = "<group>"; };
-		26D393A41C7EA19000DABA01 /* nagoya.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nagoya.json; sourceTree = "<group>"; };
-		26D393A51C7EA19000DABA01 /* naha.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = naha.json; sourceTree = "<group>"; };
-		26D393A61C7EA19000DABA01 /* niigata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = niigata.json; sourceTree = "<group>"; };
-		26D393A71C7EA19000DABA01 /* oosaka.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oosaka.json; sourceTree = "<group>"; };
-		26D393A81C7EA19000DABA01 /* sapporo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sapporo.json; sourceTree = "<group>"; };
-		26D393A91C7EA19000DABA01 /* sendai.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sendai.json; sourceTree = "<group>"; };
-		26D393AA1C7EA19000DABA01 /* tokyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokyo.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +149,6 @@
 				2663E90E1CA13603008942A3 /* Model */,
 				2619C4B31C7D85D300334266 /* Assets.xcassets */,
 				2619C4B51C7D85D300334266 /* LaunchScreen.storyboard */,
-				26D3939A1C7E9E0100DABA01 /* Resource */,
 				2619C4B81C7D85D300334266 /* Info.plist */,
 				2619C4A71C7D85D300334266 /* Supporting Files */,
 			);
@@ -259,27 +230,6 @@
 				26A4ADDF1CA26EE500B808DC /* DetailViewController.m */,
 			);
 			path = Detail;
-			sourceTree = "<group>";
-		};
-		26D3939A1C7E9E0100DABA01 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				26D3939D1C7EA19000DABA01 /* akita.json */,
-				26D3939E1C7EA19000DABA01 /* hiroshima.json */,
-				26D3939F1C7EA19000DABA01 /* hukuoka.json */,
-				26D393A01C7EA19000DABA01 /* kagoshima.json */,
-				26D393A11C7EA19000DABA01 /* kouchi.json */,
-				26D393A21C7EA19000DABA01 /* kushiro.json */,
-				26D393A31C7EA19000DABA01 /* nagano.json */,
-				26D393A41C7EA19000DABA01 /* nagoya.json */,
-				26D393A51C7EA19000DABA01 /* naha.json */,
-				26D393A61C7EA19000DABA01 /* niigata.json */,
-				26D393A71C7EA19000DABA01 /* oosaka.json */,
-				26D393A81C7EA19000DABA01 /* sapporo.json */,
-				26D393A91C7EA19000DABA01 /* sendai.json */,
-				26D393AA1C7EA19000DABA01 /* tokyo.json */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,24 +335,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D393B81C7EA19000DABA01 /* tokyo.json in Resources */,
-				26D393AB1C7EA19000DABA01 /* akita.json in Resources */,
-				26D393AC1C7EA19000DABA01 /* hiroshima.json in Resources */,
 				2619C4B71C7D85D300334266 /* LaunchScreen.storyboard in Resources */,
-				26D393B11C7EA19000DABA01 /* nagano.json in Resources */,
-				26D393B01C7EA19000DABA01 /* kushiro.json in Resources */,
 				26A4ADD11CA26DAD00B808DC /* Main.storyboard in Resources */,
-				26D393B51C7EA19000DABA01 /* oosaka.json in Resources */,
 				2619C4B41C7D85D300334266 /* Assets.xcassets in Resources */,
-				26D393B71C7EA19000DABA01 /* sendai.json in Resources */,
-				26D393B41C7EA19000DABA01 /* niigata.json in Resources */,
 				26A4ADDA1CA26E6A00B808DC /* Detail.storyboard in Resources */,
-				26D393AD1C7EA19000DABA01 /* hukuoka.json in Resources */,
-				26D393AE1C7EA19000DABA01 /* kagoshima.json in Resources */,
-				26D393B61C7EA19000DABA01 /* sapporo.json in Resources */,
-				26D393AF1C7EA19000DABA01 /* kouchi.json in Resources */,
-				26D393B31C7EA19000DABA01 /* naha.json in Resources */,
-				26D393B21C7EA19000DABA01 /* nagoya.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
